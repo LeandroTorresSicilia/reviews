@@ -1,0 +1,14 @@
+$background-color: #1187ed;
+
+body {
+	background-color: $background-color;
+	font-family: 'Salesforce sans light';
+	color: #fff;
+}
+.reviews {
+	margin-top: 6em;
+	text-align: center;
+	p {
+		font-size: 0.9em;
+	}
+}

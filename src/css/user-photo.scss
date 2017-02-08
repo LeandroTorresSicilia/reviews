@@ -1,0 +1,12 @@
+$photo-border-color: #83c1f5;
+$photo-background-color: #c0c0c0;
+
+.photo {
+	width: 15%;
+	float: left;
+	border: 9px solid $photo-border-color;
+	border-radius: 1000px;
+	background-color: $photo-background-color;
+	position: relative;
+	top: .5em;
+}
