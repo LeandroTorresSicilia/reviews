@@ -1,12 +1,19 @@
 body {
   background-color: #1187ed;
-  font-family: 'Salesforce sans light';
+  font-family: 'Salesforce sans';
   color: #fff; }
 
 .reviews {
   margin-top: 6em;
   text-align: center; }
+  @media only screen and (max-width: 760px) {
+    .reviews {
+      margin-top: 1em; } }
+  .reviews h1 {
+    font-family: 'Salesforce sans light';
+    letter-spacing: 0.05em; }
   .reviews p {
-    font-size: 0.9em; }
+    font-size: 0.8em;
+    letter-spacing: 0.02em; }
 
 /*# sourceMappingURL=app-reviews.css.map */

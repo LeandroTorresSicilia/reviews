@@ -1,15 +1,23 @@
 .user-box {
   margin-top: 3em;
-  width: 50%;
+  width: 52%;
   overflow: auto;
   background-color: #3097ef;
   margin-left: auto;
   margin-right: auto;
   border-radius: 20px;
-  padding: 2em; }
+  padding: 1.5em 2.2em 2em 2.8em; }
+  @media only screen and (max-width: 760px) {
+    .user-box {
+      width: 80%;
+      padding: 1em; } }
 
 .text-box {
   width: 75%;
   float: right; }
+  @media only screen and (max-width: 760px) {
+    .text-box {
+      width: 100%;
+      text-align: center; } }
 
 /*# sourceMappingURL=user-box.css.map */

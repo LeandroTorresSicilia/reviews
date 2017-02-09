@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,QAAS;EACR,UAAU,EAAE,CAAC",
+"mappings": "AAAA,QAAS;EACR,WAAW,EAAE,uBAAuB;EACpC,SAAS,EAAE,KAAK;EAChB,WAAW,EAAE,KAAK;EAClB,UAAU,EAAE,CAAC",
 "sources": ["user-comment.scss"],
 "names": [],
 "file": "user-comment.css"
